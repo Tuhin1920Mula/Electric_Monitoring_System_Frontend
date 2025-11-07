@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_URL || "https://electric-backend-rho.vercel.app";
+const API_BASE = import.meta.env.VITE_API_URL || "https://electric-monitoring-system-backend.vercel.app";
 
 if (import.meta.env.MODE === "development") {
   console.log("🌐 API_BASE =", API_BASE);
